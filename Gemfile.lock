@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/rails-api/active_model_serializers.git
+  revision: 8d7252019c05656a65ddc773c7cca22bf3085b20
+  specs:
+    active_model_serializers (0.7.0)
+      activemodel (>= 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -104,6 +111,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active_model_serializers!
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.13)
